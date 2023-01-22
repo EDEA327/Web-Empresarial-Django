@@ -31,3 +31,6 @@ class Post(models.Model):
         verbose_name = 'Publicación'
         verbose_name_plural = 'Publicaciones'
         ordering = ['-created_at']
+
+    def __str__(self) -> str:
+        return self.title
