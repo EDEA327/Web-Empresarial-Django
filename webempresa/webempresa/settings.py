@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'ckeditor',
     'core',
     'services.apps.ServicesConfig',
     'social.apps.SocialConfig',
@@ -126,6 +127,13 @@ STATIC_URL = 'static/'
 #Media Files
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
+#ckeditor config
+CKEDITOR_CONFIG = {
+    'default':{
+        'toolbar':None,
+    }
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
