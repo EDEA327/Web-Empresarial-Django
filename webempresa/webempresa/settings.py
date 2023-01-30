@@ -141,6 +141,12 @@ CKEDITOR_CONFIGS = {
     }
 }
 
+#email setting
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = 'd9b2634c8a5e15'
+EMAIL_HOST_PASSWORD = '9146a98815d28b'
+EMAIL_PORT = '2525'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
